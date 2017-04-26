@@ -1,0 +1,26 @@
+class Main{
+ /*
+ *
+ *
+ *
+ *
+ */
+ package jihe;//包名
+import java.util.*;
+
+	public static void main(String[] args) {
+		
+		Collection<String> set = new TreeSet<String>();
+		//Set set = new TreeSet();
+		set.add ("chang");
+		set.add ("duan");
+		set.add ("zhong");
+		Iterator<String> interator =  set.iterator();
+		while(interator.hasNext()){
+			System.out.println(interator.next());
+			}
+	}
+}
+
+
+
